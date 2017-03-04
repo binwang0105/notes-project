@@ -23,7 +23,3 @@ class Notebook(Document):
     notes = StringField(max_length=500, required=True) # Details of the note
     date_modified = DateTimeField(default=datetime.datetime.now)
 
-
-
-
-
